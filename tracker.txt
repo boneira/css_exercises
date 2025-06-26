@@ -1,0 +1,7 @@
+25/06/2025
+
+Exercicio proposto traz entender como fazer uma grid com a propriedade grid-template, pra isso precisamos só do proprio display grid 
+e do grid-template para fazer isso além de indicar cada nome dado no grid template nos elementos com o grid-area.
+Nesse exercicio, eu comecei indicando no body o tamanho do width e centralizando o container contendo o grid com o margin: 0 auto e 
+indicando o tamanho da height e depois eu criei os elementos com os padding e backgrounds e por fim coloquei eles como uma grid, com 
+o grid-template
