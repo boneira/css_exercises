@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.botoes{
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.botoes:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+
+
+.explorar{
+    background: rgba(108,108,206);
+    position: relative;
+    transition: all .3s ease;
+    
+}
+
+.explorar:hover{
+    transform: translateY(-3px);
+}
+
+.explorar span::before{
+    content: '';
+    display: block;
+    background: rgb(181, 181, 249);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.explorar:hover span::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 25px;
+    background: rgb(181, 181, 249, .5);
+    opacity: 1;
+}
+
+.descobrir{
+    background: rgba(247,99,75);
+    position: relative;
+    transition: all .3s ease;
+}
+.descobrir:hover{
+    transform: translateY(-3px);
+}
+
+.descobrir span::before{
+    content: '';
+    display: block;
+    background: rgb(255, 160, 145, .5);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.descobrir:hover span::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 25px;
+    background: rgb(255, 160, 145, .5);
+    opacity: 1;
+}
+
+
+
+.criar{
+    background: rgba(36,209,120);
+    position: relative;
+    transition: all .3s ease;
+}
+
+.criar:hover{
+    transform: translateY(-3px);
+}
+
+
+.criar span::before{
+    content: '';
+    display: block;
+    background: rgba(171, 224, 197, 0.5);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.criar:hover span::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 25px;
+    background: rgba(171, 224, 197, 0.5);
+    opacity: 1;
+}

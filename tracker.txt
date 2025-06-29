@@ -5,3 +5,14 @@ e do grid-template para fazer isso além de indicar cada nome dado no grid templ
 Nesse exercicio, eu comecei indicando no body o tamanho do width e centralizando o container contendo o grid com o margin: 0 auto e 
 indicando o tamanho da height e depois eu criei os elementos com os padding e backgrounds e por fim coloquei eles como uma grid, com 
 o grid-template
+
+29/06/2025
+
+Objetivo: Criar botões que, ao passar o mouse, exibem um efeito de "líquido" se espalhando de dentro para fora. Cada botão deve ter 
+uma cor diferente e o efeito deve ser suave e orgânico.
+Não foi tão facil no inicio, mas conforme eu fui desenvolvendo eu consegui chegar quase no resultado ideal, o que me faltou foi a 
+noção de fazer como o elemento (o circulo, feito com pseudo-elemento, que começa a animação) ficar sem aparecer na tela, depois 
+de uma ajuda eu vi que dava pra fazer com o opacity: 0 e depois colocar no hover (do elemento pai do span que eu criei dentro do 
+botao) opacity: 1, além disso eu vi que seria necessário criar um elelmento que fosse pequeno e se expandisse 100% no elemento pai,
+além de centralizar ele no meio do botão. Por final, foi necessário fazer uma transição pra quando acontecesse o hover do elemento
+fizesse um pequeno pulo, fiz isso com translateY(). 
